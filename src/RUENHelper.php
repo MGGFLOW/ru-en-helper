@@ -9,7 +9,7 @@ class RUENHelper
     /**
      * Transliterate between RU - EN
      *
-     * @param $string
+     * @param string $string
      * @param bool $fromRU
      * @return string
      */
