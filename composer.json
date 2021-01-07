@@ -1,0 +1,23 @@
+{
+  "name": "mggflow/ru-en-helper",
+  "description": "Useful methods of working with RU - EN languages",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Eliseev",
+      "email": "deusagnis@gmail.com",
+      "homepage": "https://mggflow.in",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "MGGFLOW\\Helpers\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  }
+}
