@@ -6,6 +6,13 @@ namespace MGGFLOW\Helpers;
 
 class RUENHelper
 {
+    /**
+     * Transliterate between RU - EN
+     *
+     * @param $string
+     * @param bool $fromRU
+     * @return string
+     */
     public static function transliterate($string,$fromRU=true) {
         $relations = [
             'а' => 'a',   'б' => 'b',   'в' => 'v',
